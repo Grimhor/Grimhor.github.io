@@ -1119,3 +1119,19 @@ main {
 .mw-pair {
   margin-bottom: 16px;
 }
+
+/* Квадроцикл: карточка с одним видео */
+.gym.gym-one .swim-v {
+  width: 230px;
+  height: 307px;
+}
+@media (max-width: 760px) {
+  .gym.gym-one .gym-ph {
+    display: block;
+  }
+  .gym.gym-one .swim-v {
+    width: 70%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+  }
+}
