@@ -1095,8 +1095,12 @@ main {
     grid-template-columns: 1fr;
   }
   .cards1 .fan {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr) !important;
     grid-template-rows: none;
+  }
+  .cards1 .fan img,
+  .cards1 .fan video {
+    height: 260px;
   }
 }
 .mw-pair {
